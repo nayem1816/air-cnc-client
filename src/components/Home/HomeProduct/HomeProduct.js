@@ -15,12 +15,12 @@ const HomeProduct = () => {
     <div>
       <div className="">
         <div className="flex justify-between">
-          <h2>Experiences</h2>
+          <h2 className="text-3xl">Experiences</h2>
           <Link to="/">
             <h2>See all &#62;&#62;</h2>
           </Link>
         </div>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-3">
           {experiencesData.map((hotels) => (
             <div className="">
               <Link to="/">
@@ -38,12 +38,12 @@ const HomeProduct = () => {
       </div>
       <div className="mt-10">
         <div className="flex justify-between">
-          <h2>Homes</h2>
+          <h2 className="text-3xl">Homes</h2>
           <Link to="/">
             <h2>See all &#62;&#62;</h2>
           </Link>
         </div>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-3">
           {homesData.map((home) => (
             <div className="">
               <Link to="/">

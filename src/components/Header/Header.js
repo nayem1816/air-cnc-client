@@ -13,13 +13,13 @@ const Header = () => {
           </Link>
         </div>
         <div className="col-span-2 py-3 text-2xl subpixel-antialiased font-mono flex justify-end gap-x-16 items-center">
-          <Link to='/admin' className=''>
+          <Link to='/admin' className='hidden md:hidden lg:block'>
             <h2>Admin</h2>
           </Link>
-          <Link to='/dashboard' className=''>
+          <Link to='/dashboard' className='hidden md:hidden lg:block'>
             <h2>Dashboard</h2>
           </Link>
-          <Link className='' to='/'>
+          <Link className='hidden md:hidden lg:block' to='/'>
             <h2>Help</h2>
           </Link>
           <Link to='/login' className=''>

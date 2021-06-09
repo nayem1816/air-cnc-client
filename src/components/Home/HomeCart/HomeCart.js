@@ -8,7 +8,9 @@ const HomeCart = () => {
   const [departureValue, setDepartureValue] = useState(new Date());
   return (
     <div className="">
-      <h2>Where do you want to go</h2>
+      <div className="">
+        <h2>Where do you want to go</h2>
+      </div>
       <div className="pl-3 mt-10">
         {/* location part start */}
         <div className="">
