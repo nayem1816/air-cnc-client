@@ -90,7 +90,7 @@ const HomeCart = () => {
         {/* main cart end */}
         <Link
           to="/"
-          className="mt-5 shadow-md bg-green-400 flex justify-center py-5 px-4 rounded"
+          className="mt-5 shadow-md bg-indigo-600 bg-opacity-100 flex justify-center py-5 px-4 rounded"
         >
           <h2>Search</h2>
         </Link>
