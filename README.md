@@ -2,3 +2,5 @@
 # Tailwind css install
 # Component:
 1. Header
+2. Home:
+    1. HomeCart
